@@ -1,0 +1,98 @@
+.MessageForm {
+  height: 380px;
+  width: 100%;
+  margin: auto;
+  background: #252934;
+  border: 1px solid black;
+  padding-top: 45px;
+}
+
+.contact-top {
+  padding-top: 35px;
+}
+
+.contact-top p {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  width: 468px;
+  margin: auto;
+  background: #252934;
+}
+
+.form-div input {
+  width: 460px;
+  height: 35px;
+  margin-bottom: 10px;
+  outline: none;
+  background: #1e242c;
+  border: 1px solid #1e242c;
+  color: white;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.form-div textarea {
+  width: 462px;
+  height: 120px;
+  margin-bottom: 10px;
+  outline: none;
+  background: #1e242c;
+  border: 1px solid #1e242c;
+  color: white;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.form-div button {
+  width: 95px;
+  height: 35px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 0.1px;
+  color: #fff;
+  float: right;
+  font-size: 12pt;
+  margin: 5px 0 0 0;
+  outline: 0;
+  background: transparent;
+}
+
+.form-div button:hover {
+  background: rgb(113, 155, 49);
+  color: white;
+  outline: none;
+  border: 3px solid rgb(113, 155, 49);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .MessageForm {
+    width: 100%;
+    height: 410px;
+    margin-bottom: 40px;
+  }
+  .form-div input {
+    width: 250px;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+  .form-div textarea {
+    width: 252px;
+    margin: auto;
+    margin-bottom: 2px;
+  }
+  .form-div {
+    width: 100%;
+  }
+  .form-div button {
+    margin-left: 10px;
+    width: 122px;
+    font-size: 20px;
+    margin-top: 25px !important;
+    margin: auto;
+  }
+}
