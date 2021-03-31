@@ -10,6 +10,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <div id="home">
+         <Navigation />
         <div className="Home">
           <div className="intro">
             <p>Hi, My Name Is</p>
@@ -17,27 +18,27 @@ class HomePage extends React.Component {
             <h1>I Am UI Developer</h1>
             <h6>
               <div>
-                <span>JavaScript</span> <span>React</span> <span>Angular</span>
+                <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
               </div>
               <div>
-                <span>Html</span> <span className="css">Css</span>{" "}
+                <span>React</span> <span className="css">Redux</span>{" "}
               </div>
               <div>
-                <span>Bootstrap</span> <span>Responsive</span>
+                <span>Bootstrap</span> <span>Angular</span>
               </div>
             </h6>
           </div>
           <div className="Buttons">
             <div className="button-div">
-              <a href="/#projects">
+              {/* <a href="/#projects">
                 <span className="view-projects-button ">
                   View Projects <i class="fas fa-arrow-down"></i>
                 </span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
-        <Navigation />
+       
         {/* <Navbar /> */}
         <Projects />
         <AboutPage />

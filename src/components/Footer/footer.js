@@ -13,9 +13,9 @@ class Footer extends React.Component {
             </div> */}
           </a>
         </div>
-        <div className="copyright">
+        {/* <div className="copyright">
           <p>Copyright © 2020, Shashidhar Jonchhe. All Rights Reserved.</p>
-        </div>
+        </div> */}
       </div>
     );
   }
